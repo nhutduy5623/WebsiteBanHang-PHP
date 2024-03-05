@@ -1,0 +1,120 @@
+
+.iconQL_GH:hover {
+    cursor: pointer;
+    color: #d3d7d7;
+
+}
+#GioHang {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    display: none;
+}
+    #GH_Header {
+        height: 10%;
+        width: 100%;
+        border: 1px solid black;
+        background-color: #4a707a ;
+        display: flex;
+        flex-direction: row;
+        padding: 0 1%;
+    }
+        #GH_btn_TroVe {
+            height: 30%;
+            margin: auto 0;
+        }
+        #GH_Title {
+            margin: auto;
+            font-size: 200%;
+            color: white;
+        }
+    
+    #GH_Content {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0 2%;
+        
+    }
+        #GH_DSSP {
+            height: 100%;
+            width: 80%;
+            border: 1px solid black;
+            padding: 1%;
+            overflow-y: scroll;
+            text-align: center;
+        }
+        #GH_DSSP img {
+            min-height: 20px;
+            max-height: 100px;
+        }
+        #GH_TTND {
+            height: 50%;
+            width: 20%;
+            border: 1px solid black;
+            padding: 1% 2%;
+        }
+
+
+    #GH_Footer {
+        height: 10%;
+        width: 100%;
+        border: 1px solid black;
+        background-color: #4a707a ;
+        display: flex;
+        flex-direction: row;
+        padding: 0 1%;
+        justify-content: end;
+    }
+        #GH_TongTien {
+            margin: auto 0;
+            color: white;
+            font-size: 150%;
+        }
+        #GH_ThanhTien {
+            margin: auto 0;
+            height: 40%;
+            width: 10%;
+            padding: 0 1%;
+            color: white;
+            font-size: 150%;
+            border: black solid 1px;
+        }
+        #btn_TT {
+            height: 30%;
+            margin: auto 0;
+        }
+
+
+/* Sản phẩm trong giỏ hàng */
+.GH_SP {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    border: black solid 1px;
+}
+.GH_SP img {
+    height: 100%;
+}
+
+#tbl_body_GH tr{
+    min-height: 10px; 
+    max-height: 40px;
+}
+
+.tb_show tr, th, td{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+#GH_btn_TroVe {
+    color: white;
+    font-size: 200%;
+}
+#GH_btn_TroVe:hover {
+    cursor: pointer;
+    color: rgb(185, 185, 185);
+}

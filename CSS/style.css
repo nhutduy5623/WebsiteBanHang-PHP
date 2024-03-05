@@ -1,0 +1,187 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#Main_header {
+    display: flex;
+    height: 6%;
+    width: 100%;
+    justify-content: space-around;
+    flex: 4;
+    padding: 2px 2px;
+    background-color: #573f4c;
+    box-shadow: 10px 10px 5px 10px #ffffff;
+    
+
+}
+    #TK_PL {
+        height: 100%;
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    #PLSP {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+    #Home_Icon {
+        flex: 1;
+    }
+    
+    #Click_GT:hover{
+        text-decoration: none;
+    }
+    #Div_Login_TK_GH {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+        #Login_TTK {
+            width: 100%;
+            height: 30%;
+            display: flex;
+        }
+        .Icon_GH_QL {
+            width: 100%;
+            height: 70%;
+            display: none;
+        }
+        .iconQL_GH {
+            color: #94b0b7;
+            font-size: 200%;
+        }
+        
+
+#Main_content {
+    display: flex;
+    height: 75%;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    background-color: #94b0b7;
+    
+}
+        #Main_filter {
+            width: 15%;
+            display: flex;
+            height: 100%;
+            background-color: #4a707a;
+            flex-direction: column;
+            padding: 2px 2px;
+            box-shadow: 2px 0px 5px 0 #573f4c;
+
+        }
+        #Main_filter > div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 10% auto;
+        }
+        #SapXep {
+            padding-left: 5%;
+        }
+        #SapXep input {
+            width: 10%;  
+            height: 50%;
+        }
+                    
+        #Main_filter > #btnLoc {
+            width: 30%;
+            border: #353b48 1px solid;
+            background-color: #eff1f2;
+            text-align: center;
+            float: right !important;
+            border-radius: 10%;
+        }
+        #Main_filter #btnLoc:hover {
+            cursor: pointer;
+            background-color: #c5dae6;
+        }
+        #Main_filter #btnLoc:active {
+            background-color: #eaf2f7;
+        }
+
+            
+        #content {
+            width: 85%;
+            height: 100%;
+
+        }
+            #show_SP {
+                height: 90%;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap !important;
+            }
+                .SP {
+                    display: flex;
+                    flex-direction: column;
+                    width: 17%;
+                    height: 45%;
+                    margin: 1%;
+                    background-color: #eff1f2;
+                    color: #573f4c;
+                    padding: 1%;
+                    font-size: large;
+                    font-weight: 500;
+                    border-radius: 10px;
+                    animation-name: fadein;
+                    animation-duration: 1s;
+                    box-shadow: 10px 10px 5px 1px #353b485e;
+                }
+                .img_SP {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    background-color: #353b48;
+                }
+                .name_SP {
+                    padding-top: 20%;
+                }
+                .SP:hover .name_SP{
+                    cursor: pointer;
+                    color: #028dff;
+                }
+                .SP:hover {
+                    cursor: pointer;
+                }
+                
+            #PhanTrang {
+                height: 10%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                text-align: center;
+                border-top: rgba(48, 206, 156, 0.423) 1px solid;
+            }
+                .SoTrang {
+                    margin: auto 2px;
+                    background-color: #353b48;
+                    border: rgb(48, 206, 156) solid 2px;
+                    border-radius: 30%;
+                    color: rgb(48, 206, 156);
+                    font-size: large;
+                }
+
+#Main_footer {
+    display: flex;
+    height: 15%;
+
+    width: 100%;
+    background-color: #573f4c;
+}
+
+@keyframes  fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+

@@ -1,0 +1,92 @@
+.layer_TTSP {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(51, 55, 55, 0.321);
+    font-size: 150%;
+    font-weight: 700;
+    display: none;
+}
+    .TTSP {
+        height: 50%;
+        width: 60%;
+        background-color: white;    
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        padding: 5px;
+        box-sizing: border-box;
+    }        
+        .TTSP_name{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2%;
+            box-sizing: border-box;
+            border-bottom: 1px solid black;
+        }
+        .TTSP_main{
+            height: 90%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        .TTSP_img{
+            height: 100%;
+            width: 40%;
+            
+            padding: 1%;
+            box-sizing: border-box;
+        }
+        .TTSP_ttsp{
+            height: 100%;
+            width: 60%;                
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 1%;
+            box-sizing: border-box;
+        }    
+            .TTSP_gia{
+                height: 30%;
+                width: 100%;        
+                color: #FB743E;
+                font-size: 200%;
+                padding: 2%;
+                box-sizing: border-box;
+            }
+            .TTSP_ttbh{
+                height: 30%;
+                width: 100%;
+                
+            }
+            .btn_changeSL_Buy{
+                height: 12%;
+                width: 100%;
+                display: flex;  
+                padding: 0;
+                justify-content: flex-end;
+                float: right;
+            }
+            .TTSP_clickbuy{
+                height: 100%;
+                width: 30%;    
+                font-size: 70%;
+                margin: 0 2%;
+            }
+            .ChangeSL {
+                height: 70%;
+                width: 10%;
+            }
+            #val_SLSP {
+                height: 100%;
+                margin: 0;
+                width: 100%;
+                font-size: 70%;
+            }
